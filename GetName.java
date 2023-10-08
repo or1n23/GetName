@@ -16,6 +16,7 @@ public class GetName {
         }
 
         String address = "https://www.ecs.soton.ac.uk/people/" + id;
+        System.out.println(address);
         URL url = URI.create(address).toURL();
     }
 }
